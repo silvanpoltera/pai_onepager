@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P-Ai – Automatisierung, neu gedacht</title>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.165.0/examples/jsm/"
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-[#0e0e10] text-white overflow-x-hidden">
+  <main class="relative z-10">
+    <section id="hero" class="relative min-h-screen flex items-center overflow-hidden px-6 lg:px-16">
+      <div id="hero-bg" class="absolute inset-0 z-0"></div>
+      <div class="container mx-auto grid md:grid-cols-2 gap-8 items-center relative z-10">
+        <div class="text-center md:text-left">
+          <h1 class="font-headline text-4xl md:text-6xl font-bold leading-tight">P-Ai – Geschäftsprozesse automatisieren</h1>
+          <p class="font-body text-lg md:text-xl mt-4 text-gray-300">Von der Idee bis zur Ausführung – KI-gestützt & modular</p>
+          <a href="#contact" class="cta-button mt-8 inline-block">Jetzt Demo testen</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="contact" class="bg-[#0e0e10] py-12 px-6 lg:px-16 text-center border-t border-gray-800">
+    <div class="container mx-auto">
+      <img src="./icons/poltis-logo.png" alt="POLTIS Logo" class="h-8 mx-auto mb-4" />
+      <p class="font-headline text-2xl md:text-3xl mb-6">Bereit, deine Prozesse zu automatisieren?</p>
+      <a href="mailto:demo@p-ai.com" class="cta-button">Kontakt aufnehmen</a>
+    </div>
+  </footer>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
